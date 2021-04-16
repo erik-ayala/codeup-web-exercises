@@ -115,9 +115,12 @@ console.log(sample.substring(6,12));
 
 // Example 1
 
-var movie = 3
-
-console.log(movie * 6);
+var movie = 3;
+var mermaid = 3 * movie;
+var bear = 5 * movie;
+var hercules = 1 * movie;
+var howMuch = bear + mermaid + hercules
+console.log(howMuch);
 
 // Example 2
 
