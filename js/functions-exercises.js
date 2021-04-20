@@ -96,10 +96,18 @@
      * then display the dollar amount they should tip
      */
 
+    function billTotal () {
+        var question = prompt( "What is your tip percentage?");
+        var question2 = prompt("What is your total bill?");
+        alert(calculateTip(question, question2));
+    }
+
+    billTotal()
+
     
     /**
      * TODO:
-     * Create a function named `applyDiscount`. This function should accept a price
+     * Create a function named `applyDiscount`. This functiRon should accept a price
      * (before a discount is applied), and a discount percentage (a number between 0
      * and 1). It should return the result of applying the discount to the original
      * price.
@@ -112,8 +120,13 @@
      * > applyDiscount(45.99, 0.12) // 40.4712
      */
 
+    function applyDiscount (originalPrice, discountPercent) {     // Accept price before discount, add discount percentage, return result
+        var discountAmount = originalPrice * discountPercent
+        return originalPrice - discountAmount
+    }
 
 
+    console.log(applyDiscount(100, .2));
 
-
+    
 })()
