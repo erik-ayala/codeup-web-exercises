@@ -129,38 +129,65 @@
      * return value.
      */
 
-    // var numbers = ['1', '2', '3', '4', '5'];
-    // var randomNumber = numbers[Math.floor(Math.random() * numbers.length)];
 
+<<<<<<< Updated upstream
     function calculateTotal(luckyNumber, originalPrice) {
-        var luckyNumber = "global"
-        var originalPrice = "global"g
-        var discount = "global"
-        return luckyNumber - originalPrice
+        var result;
+        var discount = luckyNumber;
 
         switch (discount) {
-            case "1":
-                return (originalPrice * .10);
+            case 1:
+                result = .10;
                 break;
-            case "2":
-                return (originalPrice * .25);
+            case 2:
+                result = .25;
                 break;
-            case "3":
-                return (originalPrice * .35);
+            case 3:
+                result = .35;
                 break;
-            case "4":
-                return (originalPrice * .50);
+            case 4:
+                result = .5;
                 break;
-            case "5":
-                return (originalPrice);
+            case 5:
+                result = 1;
                 break;
             default:
                 return ("WHOOPS THIS IS A BUG");
-
         }
+        return  originalPrice - (discount * originalPrice)
     }
-    calculateTotal(1,20);
-    alert("This is your total: " + calculateTotal());
+    calculateTotal(4,200);
+    console.log(calculateTotal());
+
+    //
+    // function calculateTotal(luckyNumber, originalPrice) {
+    //         var originalPrice;
+    //         var result;
+    //
+    //     switch (luckyNumber) {
+    //         case 1:
+    //             result = .10;
+    //             break;
+    //         case 2:
+    //             result = .25;
+    //             break;
+    //         case 3:
+    //             result = .35;
+    //             break;
+    //         case 4:
+    //            result = .50
+    //             break;
+    //         case 5:
+    //             result = 1
+    //             break;
+    //         default:
+    //             return ("WHOOPS THIS IS A BUG");
+    //
+    //     }
+    //     return originalPrice - (originalPrice * result);
+    // }
+    // alert("This is your total: " + calculateTotal(4,100));
+
 
     /**
      * TODO:
@@ -169,9 +196,38 @@
      * and alerts to display to the user what their lucky number was, what their
      * price before the discount was, and what their price after the discount is.
      */
-// Generate a random number between 0 and 6
-// var luckyNumber = Math.floor(Math.random() * 6);
 
+// Generate a random number between 0 and 6
+//     var luckyNumber = Math.floor(Math.random() * 6);
+//
+//     function calculateTotal(num1) {
+//         var thisNumber = luckyNumber
+//
+//         confirm("Do you wanna put your bill total? :)");
+//         var num1 = prompt("Alrighty, give me your debt >:)");
+//         alert("Your bill was: " + num1);
+//         alert("... and your lucky number was..." + thisNumber + "!");
+//         alert("After your discount it comes out to..." + calculateTotal());
+//         alert("Noice :)")
+//     }
+// calculateTotal();
+=======
+    // Generate a random number between 0 and 6
+    // var luckyNumber = Math.floor(Math.random() * 6);
+    //
+    // function luckyYou (num) {
+    //     var num = luckyNumber;
+    //     var userBill = prompt("What was your bill?!");
+    //     alert("Your bill was " + userBill);
+    //     alert("Uh oh what's your luck number going to be?!");
+    //     alert("You got..." + luckyNumber + "!");
+    //     alert("Calculating cool discount price.... woah!!")
+    //     alert("This is what you got after discount! " + calculateTotal(luckyNumber, userBill));
+    // }
+    //
+    // luckyYou();
+
+>>>>>>> Stashed changes
     /**
      * TODO:
      * Write some JavaScript that uses a `confirm` dialog to ask the user if they
@@ -189,5 +245,22 @@
      * HINT: The way we prompt for a value could be improved
      */
 
+   // function thisNumber(num1) {
+   //      confirm("Would you like to enter a number? :)")
+   //      var userNum = prompt("What number will it be?")
+   //      var num1 = userNum
+   //
+   //  }
 
-} )()
+    function isEvenOrOdd (num2) {
+        if (num2 % 2 === 0) {
+            return "Even"
+        } else {
+            return "False"
+        }
+        console.log(isEvenOrOdd(3))
+    }
+   // thisNumber();
+   isEvenOrOdd(4);
+
+}  )()
