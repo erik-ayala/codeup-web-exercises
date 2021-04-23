@@ -84,3 +84,24 @@
 //     console.log(`This is how many spaces are available: ${30 - spaces} `);
 // } while (spaces <= 30)
 // console.log("Parking spot if full now.");
+
+// function countDown() {
+//     for(let i = counter; i > 0; i--) {
+//         console.log("second: " + i);
+//     }
+// }
+// for(let i = 0; i <= 5; i++) {
+//     console.log("first: " + i);
+//     var counter = i;
+//     if(i === 5) {
+//         countDown();
+//     }
+// }
+
+// TODO: Loop through a set of numbers (0-30), if the number you're currently at is even, add 2 to it. If it's an
+//  odd number, print "odd"
+// // HINT: remember the remainder operator (modulo)
+
+for(let i = 0; i <= 30; i++) {
+
+}
