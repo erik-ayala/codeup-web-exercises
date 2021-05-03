@@ -1,4 +1,4 @@
-(function(
+(function() {
     "use strict";
 
     /* ########################################################################## */
@@ -21,6 +21,21 @@
      * console.logging the function's return value
      */
 
+    // function analyzeColor(input) {
+    //     if (input === "blue") {
+    //         return "Blue is the color of the sky."
+    //     } else if (input === "red") {
+    //         return "Red is the color of oranges."
+    //     } else if (input === "cyan") {
+    //         return "I don't know anything about cyan."
+    //     } else {
+    //         return "This is too many colors now."
+    //     }
+    // }
+
+// console.log(analyzeColor("yellow"));
+
+
 // Don't change the next two lines!
 // These lines create two variables for you:
 // - `colors`: a list of the colors of the rainbow
@@ -34,17 +49,52 @@
      * You should see a different message every time you refresh the page
      */
 
+// console.log(analyzeColor(randomColor));
     /**
      * TODO:
      * Refactor your above function to use a switch-case statement
      */
 
+    // function analyzeColor(input) {
+    //     switch (input) {
+    //         case "red":
+    //             return "red is a good color for apples";
+    //             break;
+    //         case "orange":
+    //             return "orange is a good food.";
+    //             break;
+    //         case "yellow":
+    //             return "yellow is the color of the sun";
+    //             break;
+    //         case "green":
+    //             return "green is some good grass"
+    //             break;
+    //         case "blue":
+    //             return "blue is the color of the sky"
+    //             break;
+    //         case "indigo":
+    //             return "indigo a bad hotel i saw once"
+    //             break;
+    //         case "violet":
+    //             return "violet is a flower sometimes";
+    //             break;
+    //     }
+    // }
+
+    // console.log(analyzeColor(randomColor));
     /**
      * TODO:
      * Prompt the user for a color when the page loads, and pass the input from the
      * user to your `analyzeColor` function. Alert the return value from your
      * function to show it to the user.
      */
+
+  //   function colorPrompt (input) {
+  //       input = prompt("what is your favorite color?")
+  //       return alert(`${input} is your favorite color!`)
+  //   }
+  //
+  // colorPrompt();
 
     /* ########################################################################## */
 
@@ -67,6 +117,30 @@
      * Test your function by passing it various values and checking for the expected
      * return value.
      */
+
+    // function calculateTotal (input, input2) {
+    //     var totalDiscount = discount * input2
+    //     var discount = input
+    //     switch (input) {
+    //         case "1":
+    //             return (input2 *.10);
+    //             break;
+    //         case "2":
+    //             return (input2 * .25);
+    //             break;
+    //         case "3":
+    //             return (input2 * .35);
+    //             break;
+    //         case "4":
+    //             return (input2 *.50);
+    //             break;
+    //         case "5":
+    //             return (input2 * 1);
+    //             break;
+    //     }
+    //     return input2 - totalDiscount;
+    // }
+    // console.log(calculateTotal(4, 20));
 
     /**
      * TODO:
@@ -95,4 +169,11 @@
      * HINT: The way we prompt for a value could be improved
      */
 
-}  )()
+
+    function trim(input) {
+        console.log(input.trim());
+    }
+
+trim(" Erik ");
+
+}) ();
