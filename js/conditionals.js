@@ -170,10 +170,6 @@
      */
 
 
-    function trim(input) {
-        console.log(input.trim());
-    }
-
-trim(" Erik ");
+//
 
 }) ();
