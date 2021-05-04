@@ -2,3 +2,32 @@
     color: blue;
     text-decoration: underline;
 }
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+    color: white;
+    background-image: url("https://opendoorpride.org/wp-content/uploads/2017/05/simple-one-color-grey-background-1920x1200.jpg") ;
+    font-family: Arial;
+    text-align: center;
+}
+
+ol,ul {
+    list-style: square;
+    display: inline-block;
+    border-color: white;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
