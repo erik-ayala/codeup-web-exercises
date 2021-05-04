@@ -34,22 +34,36 @@
 // inside of loop random number between 1 - 5
     // how many cones are being bought by her clients
     
-//
-//
-//         var allCones = Math.floor(Math.random() *50) + 50;// 50-100
-//         function getWantedCones(){
-    //         return Math.floor(Math.random() * 5) + 1;
-    //     }
-    //
-    // do {
-    //     var wantedCones = getWantedCones();
-    //     if (wantedCones > allCones) {
-    //         console.log(`I'm sorry, you wanted ${wantedCones}, but we only have ${allCones}`)
-    //         continue;
-    //     } while (allCones > 0) {
-    //
-    //     }
 
 
+    var allCones = Math.floor(Math.random() *50) + 50; // 50-100
+    // console.log(allCones)
+    var coneSold = Math.floor(Math.random() * (6 - 1) + 1);
+    // console.log(coneSold);
+
+    function iceCreamSold(input){
+        var input;
+        do {
+
+        } while (input != 0) {
+
+        }
+    }
+
+    iceCreamSold();
+
+    //////////-----------------------------------------------------------
+
+    // function cube(input) {
+    //     return (input * input * input);
+    // }
+    //
+    // console.log(cube(8));
+    //
+    // function cubeRoot(input) {
+    //     return Math.cbrt(input);
+    // }
+    //
+    // console.log(cubeRoot(512));
 
 })();
