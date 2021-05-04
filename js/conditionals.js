@@ -119,28 +119,22 @@
      */
 
     // function calculateTotal (input, input2) {
-    //     var totalDiscount = discount * input2
     //     var discount = input
     //     switch (input) {
-    //         case "1":
+    //         case 1:
     //             return (input2 *.10);
-    //             break;
-    //         case "2":
+    //         case 2:
     //             return (input2 * .25);
-    //             break;
-    //         case "3":
-    //             return (input2 * .35);
-    //             break;
-    //         case "4":
-    //             return (input2 *.50);
-    //             break;
-    //         case "5":
-    //             return (input2 * 1);
-    //             break;
+    //         case 3:
+    //             return (input2 *.35);
+    //         case 4:
+    //             return (input2 * .50);
+    //         case 5:
+    //             return (input2 - input2);
     //     }
-    //     return input2 - totalDiscount;
+    //     return (input2 - discount);
     // }
-    // console.log(calculateTotal(4, 20));
+    // console.log(calculateTotal(5, 50));
 
     /**
      * TODO:
@@ -149,8 +143,18 @@
      * and alerts to display to the user what their lucky number was, what their
      * price before the discount was, and what their price after the discount is.
      */
-// Generate a random number between 0 and 6
-// var luckyNumber = Math.floor(Math.random() * 6);
+    // Generate a random number between 0 and 6
+    // var luckyNumber = Math.floor(Math.random() * 5);
+    //
+    // function yourBill(input) {
+    //
+    //     input = prompt("What is your bill?")
+    //     alert(`Hello! Your bill was ${input}`)
+    //     alert(`Calculating lucky number... woah! You got ${luckyNumber}!`)
+    //     alert(`Your new bill is ${calculateTotal(luckyNumber, input)}`)
+    // }
+    //
+    // yourBill();
 
     /**
      * TODO:
@@ -169,7 +173,42 @@
      * HINT: The way we prompt for a value could be improved
      */
 
+    function yourNumber(input) {
+       confirm("Would you like to enter a number?")
+        input = prompt("What number do you want to input?")
+        if (isNaN(input)) {
+                alert("This number is NaN");
+        }
+        else
+            {
+                alert(isEven(input));
+                alert(plusHundred(input));
+                alert(isPositive(input));
+            }
+        }
 
-//
-
+yourNumber();
+  //-----------------------------------------------------
+    function isEven(num) {
+        if (num % 2 ===0){
+            return "It's Even"
+        } else {
+            return "It's False"
+        }
+    }
+    isEven();
+//--------------------------------------------------------------
+    function plusHundred(num) {
+        return (Number(num) + 100);
+    }
+    plusHundred();
+//--------------------------------------------------------------
+    function isPositive(num) {
+        if (num > 0) {
+            return "It's Positive!"
+        } else {
+            return "It's Negative like me >:("
+        }
+    }
+    isPositive();
 }) ();
