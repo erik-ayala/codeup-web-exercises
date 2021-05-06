@@ -82,8 +82,11 @@
 
 //----------------------------------------------------------
 
+
+// get last char of a string//-----------------------------
+
 function lastLetter(input) {
-    return input.charAt(input.length()-1);
+    return input.charAt(input.length -1);
 }
 
-console.log(lastLetter("Better Now"));
+console.log(lastLetter("Big Doggo"));

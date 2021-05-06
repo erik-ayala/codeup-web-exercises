@@ -3,9 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>Register With Us.</title>
+        <link rel="stylesheet" href="css/forms.css">
     </head>
     <body>
-        <form method="POST" action="https://request-inspector.glitch.me/">
+        <form id="form" method="POST" action="https://request-inspector.glitch.me/">
             <div>
                 <input id="email"type="text" name="email" placeholder="Enter your email address" required>
             </div>
@@ -14,9 +15,9 @@
             </div>
             <br>
             <div>
-                <textarea name="shortbio" placeholder="Enter Bio!"></textarea>
+                <textarea id="bio" name="shortbio" placeholder="Enter Bio!"></textarea>
             </div>
-            <div>
+            <div id="us">
                 <p>How did you hear about us!?</p>
                 <input name="info" value="internet" type="checkbox">Internet<br>
                 <input name="info" value="newspaper" type="checkbox">Newspaper<br>
