@@ -85,8 +85,23 @@
 
 // get last char of a string//-----------------------------
 
-function lastLetter(input) {
-    return input.charAt(input.length -1);
-}
+// function lastLetter(input) {
+//     return input.charAt(input.length -1);
+// }
+//
+// console.log(lastLetter("Big Doggo"));
 
-console.log(lastLetter("Big Doggo"));
+function remainder (input, input1) {
+    input = parseInt(input)
+    input1 = parseInt(input1)
+    var total = input % input1
+
+    if (isNaN(input) || isNaN(input1)) {
+        return false
+    } else {
+
+        return total.toFixed(2);
+    }
+
+}
+console.log(remainder(90,9))
