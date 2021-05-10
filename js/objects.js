@@ -55,13 +55,13 @@
         {name: 'George', amount: 320}
     ];
 
-    function whoShops() {
-        for (var i = 0; i <= shoppers.length; i++)
-            i++;
-        return shoppers;
+    function whoShops(input) {
+        for (var i = 0; i <= input.length; i++) {
+    }
+        return input
     }
 
-    console.log(whoShops());
+    console.log(whoShops(shoppers));
 
 
     /** TODO:
@@ -76,6 +76,16 @@
      * > console.log(books[0].author.firstName) // "Douglas"
      * > console.log(books[0].author.lastName) // "Adams"
      */
+
+    var books = [
+        {
+            title: "The Great Gatsby",
+            author: {firstName: "Erik", lastName: "Ayala"}
+        }
+
+
+    ]
+    console.log(books[0].author.lastName)
 
     /**
      * TODO:
