@@ -4,6 +4,7 @@
 
 .navbar {
     display: flex;
+    flex-direction: column;
 }
 ul {
     list-style: none;
@@ -15,6 +16,7 @@ ul {
 nav {
     background-color: grey;
     display: flex;
+    justify-content: space-between;
 }
 
 nav a {
@@ -22,13 +24,14 @@ nav a {
     color: black;
     font-family: Verdana;
     display: inline-block;
-    padding: 1em;
+    padding: .5em;
 }
 p {
-    font-family: Monseratt;
+    font-family: Verdana;
     font-size: 3em;
     padding: .2em;
     margin: auto;
+    align-self: center;
 }
 nav a:hover {
     background: blue;
