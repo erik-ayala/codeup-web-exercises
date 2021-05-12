@@ -78,14 +78,14 @@
      */
 
     var books = [
-        {
-            title: "The Great Gatsby",
-            author: {firstName: "Erik", lastName: "Ayala"}
-        }
+        {title: "Exile", author: {firstName: "Robert Anthony", lastName: "Salvatore" }},
+        {title: "The Hobbit", author: {firstName: "J.R.R", lastName: "Tolkien" }},
+        {title: "Harry Potter", author: {firstName: "J.K", lastName: "Rowling"}},
+        {title: "Alice in Borderland", author: {firstName: "Ryō", lastName: "Ōyama"}},
+        {title: "The Way of Kings", author: {firstName: "Brandon", lastName: "Sanderson"}}
+    ];
 
-
-    ]
-    console.log(books[0].author.lastName)
+    console.log(books[1].author.lastName)
 
     /**
      * TODO:
@@ -112,6 +112,14 @@
      *      ...
      */
 
+        books.forEach(function (name,array){
+            console.log(`Book #${array + 1} 
+          Title: ${name.title}
+          Author: ${name.author.firstName} ${name.author.lastName}
+          --------`)
+        })
+
+
     /**
      * Bonus:
      * - Create a function named `createBook` that accepts a title and author
@@ -122,5 +130,6 @@
      *   outputs the information described above. Refactor your loop to use your
      *   `showBookInfo` function.
      */
+
 
 })();

@@ -35,35 +35,20 @@
     // how many cones are being bought by her clients
     
 
+    var allCones = Math.floor( Math.random() * 50) + 50;
+    var wantedCones = Math.floor( Math.random() * 6) +1;
 
-    var allCones = Math.floor(Math.random() *50) + 50; // 50-100
-    // console.log(allCones)
-    var coneSold = Math.floor(Math.random() * (6 - 1) + 1);
-    // console.log(coneSold);
-
-    function iceCreamSold(input){
-        var input;
+    function iceCreamSold() {
         do {
-
-        } while (input != 0) {
-
-        }
+            if (wantedCones >= allCones) {
+                console.log(`I'm sorry, you wanted ${wantedCones}, but we only have ${allCones}`)
+                continue;
+            }
+                console.log(`Here is your Ice Cream Cone ${wantedCones}. Enjoy!`)
+                allCones -= wantedCones;
+                console.log(`We have ${allCones} remaining`);
+            } while (allCones > 0)
     }
-
     iceCreamSold();
-
-    //////////-----------------------------------------------------------
-
-    // function cube(input) {
-    //     return (input * input * input);
-    // }
-    //
-    // console.log(cube(8));
-    //
-    // function cubeRoot(input) {
-    //     return Math.cbrt(input);
-    // }
-    //
-    // console.log(cubeRoot(512));
 
 })();

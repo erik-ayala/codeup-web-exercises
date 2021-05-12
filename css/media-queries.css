@@ -1,5 +1,7 @@
 
-@media screen and (min-width: 576px) {
+
+
+@media screen and (min-width: 414px) {
 
     .alert-info {
         box-sizing: border-box;
@@ -93,8 +95,8 @@
     li {
         padding-left: .5em;
         padding-right: .5em;
+        /*background-color: red;*/
     }
-
     img {
         display: flex;
         justify-content: space-evenly;
