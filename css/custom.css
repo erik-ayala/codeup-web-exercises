@@ -1,7 +1,19 @@
-.jumbotron {
-    width: 100%;
+#sign-up {
+    align-self: self-end;
 }
 
-img{
-    width: 100%;
+.jumbotron {
+    background-image: url("../img/pizza.png");
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h1 {
+    background-color: white;
+    opacity: 70%;
+    text-align: center;
+}
+#size-crust-ist{
+    padding-top: 0;
+
 }
