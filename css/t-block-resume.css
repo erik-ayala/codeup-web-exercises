@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    padding: 1em;
+}
+#socials {
+    border-bottom: black dashed;
+}
+
+#leftarticle {
+    padding: 1em;
+}
+
+#vertical-line {
+    border-left: black dashed;
+}
