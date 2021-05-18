@@ -67,15 +67,21 @@
 //     console.log(toUppercase("15"));
 
 
-function mockingCase(input) {
-    var res = "";
-    for (var i = 0; i < input.length; i++) {
-        res += i % 2 === 0 ? input.charAt(i).toUpperCase() : input.charAt(i);
-        }
-    return res;
-}
+// function mockingCase(input) {
+//     var res = "";
+//     for (var i = 0; i < input.length; i++) {
+//         res += i % 2 === 0 ? input.charAt(i).toUpperCase() : input.charAt(i);
+//         }
+//     return res;
+// }
+//
+//     console.log(mockingCase("im da best"));
 
-    console.log(mockingCase("im da best"));
+    // function secondToLast (input) {
+    //    return (input.length(-2));
+    //
+    //
+    // }
 
-
+    console.log(secondToLast("'Frog', 'Kitty', 'Bird', 'Dog'"));
 })()
