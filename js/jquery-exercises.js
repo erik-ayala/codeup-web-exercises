@@ -8,19 +8,21 @@
 //     "border-color": 'red',
 // })
 
-$("li").click(function() {
-    alert("What it do")
+$("li").hover(function() {
     $(this).css({
-        "font-size": "20px",
-        "list-style": "none",
+        "color": "red",
+        "list-style-type": "none"
+    })
+},function () {
+    $(this).css({
+        "color": "black",
     })
 });
 
 $("p").dblclick(function(){
-    alert("NOW LOOK AT WHAT YOU'VE DONE");
     $(this).css("font-size","18px");
 });
 
 $("h1").click(function () {
-    alert("what a cool header!")
+    $(this).css('background-color', "yellow")
 });
