@@ -5,15 +5,15 @@
 //  -> https://developer.mozilla.org/en-US/docs/Web/Events
 
 
-function amogus() {
-    let scary = document.getElementsByTagName('img');
-    scary.addEventListener("hover", appendScarySus)
-}
-
-function appendScarySus() {
-    document.getElementById('sus-group').    //get children of sus group and replace each of them with scary man//
-        .appendChild(scaryman());
-}
+// function amogus() {
+//     let scary = document.getElementsByTagName('img');
+//     scary.addEventListener("hover", appendScarySus)
+// }
+//
+// function appendScarySus() {
+//     document.getElementById('sus-group').    //get children of sus group and replace each of them with scary man//
+//         .appendChild(scaryman());
+// }
 
 //TODO: Listener - what will *happen* when the event fires off
 //  -> Can be whatever you want/need. For example:
@@ -62,30 +62,30 @@ function scaryman() {
 // In dom-events-basics.html, we have a Boostrap navbar.
 
 // Perhaps the content in the body (below the navbar) should change when a user clicks a sus link
-
-setSuspectEvent();
-
-function setSuspectEvent() {
-    document.getElementById("sus")
-        .addEventListener("click", appendSusNode);
-}
-
-function appendSusNode() {
-    document.getElementById("sus-group")
-        .appendChild(getImageNode());
-    amogus()
-}
-
-function getImageNode() {
-
-    let imageNode = document.createElement("img");
-    imageNode.setAttribute("src", "assets/images/sus.gif");
-    imageNode.setAttribute("class", "col-12 col-sm-6 col-md-4 px-0");
-    // imageNode.setAttribute("class", "col-12");
-
-    return imageNode;
-}
-
+//
+// setSuspectEvent();
+//
+// function setSuspectEvent() {
+//     document.getElementById("sus")
+//         .addEventListener("click", appendSusNode);
+// }
+//
+// function appendSusNode() {
+//     document.getElementById("sus-group")
+//         .appendChild(getImageNode());
+//     amogus()
+// }
+//
+// function getImageNode() {
+//
+//     let imageNode = document.createElement("img");
+//     imageNode.setAttribute("src", "assets/images/sus.gif");
+//     imageNode.setAttribute("class", "col-12 col-sm-6 col-md-4 px-0");
+//     // imageNode.setAttribute("class", "col-12");
+//
+//     return imageNode;
+// }
+//
 
 // TODO: comment out the above code and make your own events!
 //  -> Document-specific events: https://developer.mozilla.org/en-US/docs/Web/API/Document#events
