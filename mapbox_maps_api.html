@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>First Mapbox Map</title>
+    <!-- Mapbox CSS -->
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css" type="text/css">
+    <!-- Custom CSS -->
+    <style>
+      #map {
+        /* the width and height may be set to any size */
+        width: 100%;
+        height: 600px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1>My First Mapbox Map!</h1>
+
+    <!-- The HTML element that serves as the Mapbox container -->
+    <div id="map" style="width: 1300px; height: 900px "></div>
+
+    <!-- Mapbox JS -->
+<!--    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>-->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.js'></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js"></script>
+    <script src="js/mapbox.js"></script>
+
+    <!-- Custom JS -->
+<!--    <script>-->
+<!--      mapboxgl.accessToken = 'pk.eyJ1IjoiZXJpa2F5YWxhIiwiYSI6ImNrcHIzMDJ0czAwY3kycG8xZThoeWxmeG0ifQ.xyavcdZVV_k7nE89S0TNqA.zNDsA0Ot41nk8qVC8tZ94Q';-->
+<!--      var map = new mapboxgl.Map({-->
+<!--        container: 'map',-->
+<!--        style: 'mapbox://styles/mapbox/streets-v9',-->
+<!--        zoom: 10,-->
+<!--        center: [-98.4916, 29.4252]-->
+<!--      });-->
+<!--    </script>-->
+  </body>
+</html>
