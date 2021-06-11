@@ -17,3 +17,4 @@ $(window).load(function (){
 $(document).ready( function () {
     $("#pink").hide()
 });
+
