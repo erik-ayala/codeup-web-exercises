@@ -1,0 +1,43 @@
+h1, h2 {
+    justify-content: center;
+    display: flex;
+}
+
+#last-pic{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    margin-left: 45%;
+}
+#text-content {
+    margin-top: 10em;
+}
+
+#links {
+    text-align: center;
+}
+
+#images {
+    margin-top: 100px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+}
+
+#pic-one {
+    width: 400px;
+    height: 400px;
+}
+
+.p {
+    border: black solid;
+}
+#pdf-class {
+    text-align: center;
+    margin-bottom: 100px;
+}
+#external-links {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}

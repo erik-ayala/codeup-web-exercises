@@ -18,3 +18,10 @@ $(document).ready( function () {
     $("#pink").hide()
 });
 
+$("#content-toggle li").hover(function () {
+    $(this).text("Where did my content go?")
+});
+
+// $('#font-change').click(function () {
+//     $('this').css("font-family", "Quantico")
+// })
